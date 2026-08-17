@@ -1,23 +1,8 @@
-title:              Blog Computação Visual
-email:              lucasakio42@gmail.com
-description:        Blog para a matéria de computação visual.
-author:             Lucas Akio
-baseurl:            "/Computacao-Visual-Blog"
-url:                "https://lucasakio0.github.io"
+title: Blog Computação Visual
+description: Blog para a matéria de Computação Visual.
+author: Lucas Akio
 
-# Social Profiles
-twitter_username:   
-github_username: lucasakio0   
-facebook_username:  
-instagram_username:  
-linkedin_username:
+remote_theme: pages-themes/minimal@v0.2.0
 
-
-# Build settings
-markdown:           kramdown
-paginate:           5
-paginate_path:      "/posts/page:num/"
 plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+  - jekyll-remote-theme
